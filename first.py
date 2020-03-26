@@ -1,5 +1,4 @@
 from time import sleep
-print("hello world")
+print('hi lo')
 sleep(2)
-print("after 2 seconds hello world")
 print('bye')
