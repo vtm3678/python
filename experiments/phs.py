@@ -1,3 +1,4 @@
+from time import sleep
 print('HELLO. WELCOME TO PYTHON THERAPIST INDUSTRIES LIMITED. WE WILL BE HAPPY TO SERVE YOU')
 xh = input('Would you like to render our 100%  efficient therapist services?(yes/no)')
 if xh == ('yes'):
@@ -25,9 +26,8 @@ if xh == ('yes'):
 		x = 2346
 		print(' I recommend the drug prozac in a quantity of 15.78 grams three times a week ')
 		print('If this is not successful, please visit next monday at 10:12 AM')
-		print('you can avail a special second visit discount of 40%. your 3 digit number will be shown in 7 seconds .')
-		b = 7
-		sleep(b)
+		print('you can avail a special second visit discount of 40%. your 3 digit number will be shown in 10 seconds .')
+		sleep(10)
 		while x > 341:
 			print(x)
 			x = x - 1
