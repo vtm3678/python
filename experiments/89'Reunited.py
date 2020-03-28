@@ -9,7 +9,7 @@ def carvatti():
     print('u cannot say that. adieu')
     print('bye')
 x = int(input('please choose a whole number between 1 and 3 to view the above'))
-if x == 1 :
+if x == 1:
     print('wait for 1 sec')
     sleep(1)
 elif x == 2 :
