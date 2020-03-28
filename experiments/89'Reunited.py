@@ -15,7 +15,7 @@ if x == 1 :
 elif x == 2 :
     print('wait for 2 sec')
     sleep(2)
-elif x == 3:
+elif x == 3 :
     print('wait for 3 sec')
     sleep(3)
 else:
