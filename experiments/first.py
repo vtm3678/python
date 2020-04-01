@@ -8,7 +8,7 @@ while index < l:
     forwardchar = x[index]
     reverseIndex = lastindex - index
     reverseChar = x[reverseIndex]
-    index = index + 1
+    index = index+ 1
     if forwardchar != reverseChar:
         pal = False
         break
