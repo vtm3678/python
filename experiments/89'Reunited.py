@@ -21,4 +21,7 @@ elif x == 3 :
 else:
     print('that is not a whole number between 1 and 3 ')
     print('i shall still show u the conversation')
+    sleep(3)
 carvatti()
+sleep(7)
+print('Ha!........ YOU GOT SPAMMED')
