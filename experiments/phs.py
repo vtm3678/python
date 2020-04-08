@@ -1,28 +1,28 @@
 from time import sleep
-print('HELLO. WELCOME TO PYTHON THERAPIST INDUSTRIES LIMITED. WE WILL BE HAPPY TO SERVE YOU')
-xh = input('Would you like to render our 100%  efficient therapist services?(yes/no)')
-if xh == ('yes'):
+print('HELLO. WELCOME TO PYTHON THERAPIST INDUSTRIES LIMITED. WE WILL BE HAPPY TO SERVE YOU.')
+xh = input('Would you like to render our 100%  efficient therapist services?(yes/no):')
+if xh.lower() == ('yes'):
 	print('Thank you.')
-	print('Please note that no capital letters are entertained in this session')
-	xw = input('Please state your name  ')
-	xe = input('Please state your gender ')
-	if xe == ('male'):
+	xw = input('Please state your name:  ')
+	xe = input('Please state your gender(male/female): ')
+	if xe.lower() == ('male'):
 		xc = ('sir')
-	elif xe == ('female'):
+	elif xe.lower() == ('female'):
 		xc = 'madam'
-	input('so how are you feeling')
+	input('so how are you feeling? ')
 
-	input('I see. And why is that?')
+	input('I see. And why is that? ')
 
-	input('And when did happen')
+	input('Please elaborate. ')
 
-	print('Please wait for a second .')
-	xd = input('are you, right now, feeling happy?')
-	if xd == ('yes'):
+	print(' wait for a second .')
+	sleep(2)
+	xd = input('are you, right now, feeling happy? ')
+	if xd.lower() == ('yes'): 
 		print('if, you are still feeling happy in 24 hrs, this session has been successful. if not, see you tomorrow. bye for now',xc)
 		print(xw)
 		quit()
-	elif xd == ('no'):
+	elif xd.lower() == ('no'):
 		x = 2346
 		print(' I recommend the drug prozac in a quantity of 15.78 grams three times a week ')
 		print('If this is not successful, please visit next monday at 10:12 AM')
@@ -35,12 +35,10 @@ if xh == ('yes'):
 		print('Please show this code to the cashier on your next visit to avail a discount')
 		print('thank you. ')
 		print(' i hope you have enjoyed this session')
-		print('bye') 
-		print(xw)
+		print('bye',xw) 
 		quit()
-elif xh == ('no'):
-	print('bye')
-	exit()
+else:
+	print('Okay, then. Bye!')
 
 
 
