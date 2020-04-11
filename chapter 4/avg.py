@@ -1,17 +1,14 @@
-x = input('type something: ')
-l = len(x)
-lastindex = l - 1
-index = 0
-pal = True
-while index < l:
-    forwardchar = x[index]
-    reverseindex = lastindex - index
-    reversechar = x[reverseindex]
-    index = index + 1
-    if forwardchar != reversechar:
-        pal = False
-        print(x,'is not a palindrome')
-        break
-if forwardchar == reversechar:
-    print(x, 'is a palindrome')
-        
+fname = input('Enter file: ')
+fhand = open(fname)
+counts = dict()
+for line in fhand:
+    words = line.split()
+    for word in words :
+        counts[word] = counts.get(word,0)+ 1
+bigcount = None
+bigword  = None
+for word,count in counts.items():
+    if bigcount is None or count>bigcount:
+        bigword = word
+        bigcount = count
+print(bigword,'occured',bigcount,'times')
