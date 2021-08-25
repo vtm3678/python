@@ -24,7 +24,7 @@ if xh.lower() == ('yes'):
 		quit()
 	elif xd.lower() == ('no'):
 		x = 2346
-		print(' I recommend the drug Prozac in a quantity of 15.78 grams three times a week ')
+		print('I recommend you take some prozac')
 		print('If this is not successful, please visit next monday at 10:12 AM')
 		print('you can avail a special second visit discount of 40%. your 3 digit number will be shown in 10 seconds .')
 		sleep(10)
