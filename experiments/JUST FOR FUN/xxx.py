@@ -1,8 +1,0 @@
-laiu = max('abcdefghijklmopqrstuvwxyz')
-print(laiu)
-laui = max('qwertyuiopasdfghjklzxcvbnm')
-print(laui)
-luia = min('abcdefghijklmnopqrstuvwxyz')
-print(luia)
-luai = min('qwertyuiopasdfghjklzxcvbnm')
-print(luai)
