@@ -1,3 +1,3 @@
 # python
 Learning Python
-Experiments in Python, Fun Programs and Discord Bots
+* Experiments in Python /n * Fun Programs and * Discord Bots
